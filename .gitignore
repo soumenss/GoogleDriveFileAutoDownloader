@@ -1,5 +1,5 @@
 # Ignore these
-*
+*.jpg
 
 # Allow these
 !.md
