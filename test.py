@@ -12,7 +12,5 @@
 
 s = 'movie.jpg'
 parts = s.split('.')
-ext = parts[-1].lower()
-
-if ext == 'mp4':
+if parts[-1].lower() == 'mp4':
 	print(s)
